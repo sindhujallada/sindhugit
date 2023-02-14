@@ -36,5 +36,17 @@
     <version>7.9.0</version>
     <scope>test</scope>
 </dependency>
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-testng</artifactId>
+    <version>7.9.0</version>
+</dependency>
+<dependency>
+<groupId>org.magnitia</groupId>
+<artifactId>sikulix</artifactId>
+<version>1.13</version>
+<scope>system</scope>
+<systemPath>${basedir}/src/test/resources/sikulijar/sikulixapi.jar</systemPath>
+</dependency>
 </dependencies>
 </project>
